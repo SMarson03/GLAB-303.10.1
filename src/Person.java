@@ -15,10 +15,10 @@ public class Person {
         name = aName;
     }
     public String toString(){
-        return("Hello, my name is" + name);
+        return("Hello, my name is " + name);
     }
     public String talk(){
-        return("I have nothing to say");
+        return("I have nothing to say. ");
     }
     public String walk(){
         return("I have nowhere to go.");

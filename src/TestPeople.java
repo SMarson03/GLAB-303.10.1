@@ -26,7 +26,17 @@ public class TestPeople {
         System.out.println(((Person)jimmy).talk());
         System.out.println(((Person)jimmy).walk());
         System.out.println();
-        
 
-    }
+        System.out.println((Person)betty);
+        System.out.println(((Person)betty).talk());
+        System.out.println(((Person)betty).walk());
+        System.out.println();
+
+        System.out.println(Person.lifeSpan());
+        System.out.println(Boy.lifeSpan());
+        System.out.println(Girl.lifeSpan());
+
+        System.out.println(((Boy)aPerson).talk());
+
+  }
 }
